@@ -1,6 +1,6 @@
-# Prova Java  IST - Banco
+# Banco
 
-Na pasta raiz desse projeto, onde encontra-se o arquivo *docker-compose.yaml*, o banco de dados deve ser iniciado via docker, utilizando o cmd/terminal, com o comando:
+No arquivo *docker-compose.yaml*, o banco de dados deve ser iniciado via docker, utilizando o cmd/terminal, com o comando:
 
 `docker-compose up -d`
 
@@ -16,9 +16,9 @@ A imagem docker contem à seguinte configuração:
 
 - **host**: localhost (ou 127.0.0.1)
 - **port**: 5432
-- **database**: ist
-- **user**: ist
-- **pass**: ist
+- **database**: nome_base
+- **user**: usuario_nome
+- **pass**: senha
 
 #### String de conexão jdbc:
 
